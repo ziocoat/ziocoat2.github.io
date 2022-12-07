@@ -50,3 +50,7 @@
     
  ### Set-Cookie
    - 
+   
+ ### Http Only
+   - XST 공격
+   https://sabjili.tistory.com/entry/httponly를-우회하는-XST
