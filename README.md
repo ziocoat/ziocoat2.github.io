@@ -84,8 +84,7 @@
    > >- 대응 방법: HTTP TRACE Method 설정 off
    2. Secure Cookie
    - HttpOnly 옵션을 사용해도 네트워크를 직접 sniffing하여 쿠키를 가로챌 수도 있기에 등장
-   - 암호화가 적용된 HTTPS 프로토콜을 사용할 때에만 쿠키 전송
-   > 해커들이 탈취해도 암호화가 적용되어 정보 확인 불가 
+   - 암호화가 적용된 HTTPS 프로토콜을 사용할 때에만 쿠키 전송 -> 해커들이 탈취해도 암호화가 적용되어 정보 확인 불가 
 
    3.HttpOnly, Secure Cookie 적용 방법
    - Set-Cookie 헤더에 HttpOnly 또는 secure 옵션을 적용
