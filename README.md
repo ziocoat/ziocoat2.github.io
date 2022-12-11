@@ -41,6 +41,8 @@
    - Set-Cookie 같은 경우 쿠키 적용 범위를 적용하기 위해 Domain 속성 사용, Path를 사용해 도메인의 특정 경로로 쿠키 범위 축소
      > ![image](https://user-images.githubusercontent.com/64004292/206892412-a24fe643-e5cf-438d-834e-1f077cee777e.png)
    
+   ![image](https://user-images.githubusercontent.com/64004292/206908815-1f21a959-ef44-47c0-bc64-5ca475002e79.png)
+
 
 
 ### Cookie, Session Vulnerability
@@ -88,8 +90,7 @@
 
    3.HttpOnly, Secure Cookie 적용 방법
    - Set-Cookie 헤더에 HttpOnly 또는 secure 옵션을 적용
-   - ![image](https://user-images.githubusercontent.com/64004292/206892774-263140d9-9878-4189-b772-3c9979171fcb.png)   
-
+   
 
  ### Web Storage 
   - Web Storage는 웹에 있는 저장소가 아니라 브라우저의 내부 저장소를 사용할 수 있게끔 제공하는 기능
