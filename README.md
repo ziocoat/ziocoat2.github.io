@@ -82,7 +82,6 @@
    > >- 공격자는 Response를 가로채 Response 내에 SessionID 쿠키 값 획득
    > >![image](https://user-images.githubusercontent.com/64004292/206893978-29bd6599-a9b4-421f-b20e-123ab37fc448.png)
    > >- 대응 방법: HTTP TRACE Method 설정 off
-  
    2. Secure Cookie
    - HttpOnly 옵션을 사용해도 네트워크를 직접 sniffing하여 쿠키를 가로챌 수도 있기에 등장
    - 암호화가 적용된 HTTPS 프로토콜을 사용할 때에만 쿠키 전송
